@@ -28,4 +28,4 @@ prelude-cheatsheet.aux
 prelude-cheatsheet.log
 transient/
 bowmore/*org.el
-bowmore/bowmore-magit.el.bak
+bowmore/bowmore-magit*
