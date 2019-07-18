@@ -5,6 +5,11 @@
 (show-paren-mode 1)
 ;; high light current line
 (global-hl-line-mode 1)
+;; (set-face-background 'hl-line "#3e4446")
+(set-face-background 'hl-line "#6F6F6F")
+
+(column-highlight-mode)
+
 
 ;; display time
 (display-time-mode 1)

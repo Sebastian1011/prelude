@@ -40,9 +40,10 @@
 (require 'prelude-xml)
 (require 'prelude-yaml)
 
-;; bowmore config 
+;; bowmore config
 
 (require 'bowmore-magit)
+(require 'col-highlight)
 ;; (require 'bowmore-auto-save)
 (require 'bowmore-editor)
 (require 'bowmore-gpg)
