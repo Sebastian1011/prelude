@@ -57,6 +57,8 @@
   "The home of Prelude's core functionality.")
 (defvar prelude-modules-dir (expand-file-name  "modules" prelude-dir)
   "This directory houses all of the built-in Prelude modules.")
+(defvar bowmore-dir (expand-file-name  "bowmore" prelude-dir)
+  "This directory houses all of the built-in Prelude modules.")
 (defvar prelude-personal-dir (expand-file-name "personal" prelude-dir)
   "This directory is for your personal configuration.
 
@@ -92,6 +94,7 @@ This is DEPRECATED, use %s instead." prelude-modules-file))
 ;; add Prelude's directories to Emacs's `load-path'
 (add-to-list 'load-path prelude-core-dir)
 (add-to-list 'load-path prelude-modules-dir)
+(add-to-list 'load-path bowmore-dir)
 (add-to-list 'load-path prelude-vendor-dir)
 (prelude-add-subfolders-to-load-path prelude-vendor-dir)
 
