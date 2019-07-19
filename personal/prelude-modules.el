@@ -42,9 +42,10 @@
 
 ;; bowmore config
 
+(require 'bowmore-init)
 (require 'bowmore-magit)
 (require 'col-highlight)
-;; (require 'bowmore-auto-save)
+(require 'bowmore-auto-save)
 (require 'bowmore-editor)
 (require 'bowmore-gpg)
 (require 'bowmore-md)
