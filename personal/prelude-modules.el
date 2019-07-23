@@ -52,3 +52,4 @@
 (require 'bowmore-tools)
 (require 'bowmore-org)
 (require 'bowmore-checker)
+(require 'bowmore-project)

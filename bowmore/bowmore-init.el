@@ -23,6 +23,8 @@
  'restclient
  'ggtags
  'thrift
+ 'flycheck-pos-tip
+ 'projectile
  ;; ... etc
  )
 
