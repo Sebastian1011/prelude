@@ -7,6 +7,6 @@
 (setq projectile-enable-caching t)
 
 ;;key bingding: ctrl shift n
-(global-set-key [?\C-\S-n] 'projectile-find-file)
+(global-set-key (kbd "C-c C-f") 'projectile-find-file)
 
 (provide 'bowmore-project)
