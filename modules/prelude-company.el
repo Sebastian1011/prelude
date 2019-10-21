@@ -31,9 +31,15 @@
 ;; Boston, MA 02110-1301, USA.
 
 ;;; Code:
-(prelude-require-packages '(company))
 
-(require 'company)
+;; TabNine completion backend for company-mode. It takes care of TabNine binaries
+(prelude-require-packages '(company))
+(prelude-require-packages '(company-tabnine))
+
+;;(require 'company)
+;;(use-package company-tabnine :ensure t)
+(require 'company-tabnine)
+(add-to-list 'company-backends #'company-tabnine)
 
 (setq company-idle-delay 0.5)
 (setq company-show-numbers t)
