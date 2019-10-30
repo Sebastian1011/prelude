@@ -27,6 +27,7 @@
  'projectile
  'org-alert
  'org-preview-html
+ 'swift-mode
  ;; ... etc
  )
 
