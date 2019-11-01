@@ -39,6 +39,7 @@
 ;; You may delete these explanatory comments.
 ;(package-initialize)
 
+(setq package-check-signature nil)
 (defvar current-user
   (getenv
    (if (equal system-type 'windows-nt) "USERNAME" "USER")))
