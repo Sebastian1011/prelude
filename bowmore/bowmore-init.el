@@ -25,6 +25,9 @@
  'thrift
  'flycheck-pos-tip
  'projectile
+ 'org-alert
+ 'org-preview-html
+ 'swift-mode
  ;; ... etc
  )
 
