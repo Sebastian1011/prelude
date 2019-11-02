@@ -1,4 +1,6 @@
-(global-linum-mode 1) ; always show line numbers
+(global-display-line-numbers-mode)
+;;(global-linum-mode 1)
+;; always show line numbers
 ;; (setq linum-format "%d| ")  ;set format
 (setq linum-format "%3d ")
 (define-key global-map "\C-c\C-g" 'goto-line)
