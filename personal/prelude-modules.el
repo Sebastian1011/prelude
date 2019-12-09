@@ -43,14 +43,14 @@
 ;; bowmore config
 
 (require 'bowmore-init)
-(require 'bowmore-magit)
+;;(require 'bowmore-magit)
 (require 'col-highlight)
 (require 'bowmore-auto-save)
 (require 'bowmore-editor)
 (require 'bowmore-gpg)
 (require 'bowmore-md)
 (require 'bowmore-tools)
-(require 'bowmore-org)
+;;(require 'bowmore-org)
 (require 'bowmore-checker)
 (require 'bowmore-project)
 (require 'bowmore-alert)
