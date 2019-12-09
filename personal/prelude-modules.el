@@ -53,3 +53,4 @@
 (require 'bowmore-org)
 (require 'bowmore-checker)
 (require 'bowmore-project)
+(require 'bowmore-alert)
