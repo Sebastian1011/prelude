@@ -28,6 +28,7 @@
  'org-alert
  'org-preview-html
  'swift-mode
+ 'graphviz-dot-mode
  ;; ... etc
  )
 
