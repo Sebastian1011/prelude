@@ -34,12 +34,12 @@
 
 ;; TabNine completion backend for company-mode. It takes care of TabNine binaries
 (prelude-require-packages '(company))
-(prelude-require-packages '(company-tabnine))
+;;(prelude-require-packages '(company-tabnine))
 
-;;(require 'company)
+(require 'company)
 ;;(use-package company-tabnine :ensure t)
-(require 'company-tabnine)
-(add-to-list 'company-backends #'company-tabnine)
+;;(require 'company-tabnine)
+;;(add-to-list 'company-backends #'company-tabnine)
 
 (setq company-idle-delay 0.5)
 (setq company-show-numbers t)
