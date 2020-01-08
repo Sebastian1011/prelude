@@ -29,6 +29,7 @@
  'org-preview-html
  'swift-mode
  'nginx-mode
+ 'graphviz-dot-mode
  ;; ... etc
  )
 
