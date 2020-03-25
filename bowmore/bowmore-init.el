@@ -29,6 +29,7 @@
  'org-preview-html
  'swift-mode
  'graphviz-dot-mode
+ 'plantuml-mode
  ;; ... etc
  )
 
