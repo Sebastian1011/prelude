@@ -28,6 +28,7 @@
  'org-alert
  'org-preview-html
  'swift-mode
+ 'nginx-mode
  'graphviz-dot-mode
  'plantuml-mode
  ;; ... etc
