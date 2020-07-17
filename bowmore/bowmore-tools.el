@@ -1,7 +1,3 @@
-;;; init-tools --- this init some dev tools
-;;; Commentary:
-;;; Code:
-;;; enable rest client mode
 (require 'restclient)
 (require 'ggtags)
 (add-hook 'c-mode-common-hook

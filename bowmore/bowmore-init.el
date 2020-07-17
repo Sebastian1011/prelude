@@ -15,6 +15,12 @@
    packages)
   )
 
+(eval-after-load 'ggtags
+  '(progn
+     (evil-make-overriding-map ggtags-mode-map 'normal)
+     ;; force update evil keymaps after ggtags-mode loaded
+     (add-hook 'ggtags-mode-hook #'evil-normalize-keymaps)))
+
 ;; === List my packages ===
 ;; simply add package names to the list
 (ensure-package-installed

@@ -1,3 +1,5 @@
+(require 'evil)
+(evil-mode 1)
 (global-display-line-numbers-mode)
 ;;(global-linum-mode 1)
 ;; always show line numbers
@@ -44,11 +46,18 @@
 (add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
 (add-to-list 'auto-mode-alist '("\\.yaml\\'" . yaml-mode))
 (add-hook 'yaml-mode-hook
-	  (lambda ()
-	    (define-key yaml-mode-map "\C-m" 'newline-and-indent)))
+          (lambda ()
+            (define-key yaml-mode-map "\C-m" 'newline-and-indent)))
 
 (setq auto-mode-alist
       (append '(("\\.rst\\'" . rst-mode)
-		("\\.rest\\'" . rst-mode)) auto-mode-alist))
+                ("\\.rest\\'" . rst-mode)) auto-mode-alist))
+
+;; disable evil mode in help mode
+(evil-set-initial-state 'help-mode 'emacs)
+
+;; disable evil mode in org mode
+(evil-set-initial-state 'org-mode 'emacs)
+(add-to-list 'evil-emacs-state-modes 'org-mode)
 
 (provide 'bowmore-editor)
