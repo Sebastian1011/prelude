@@ -57,7 +57,7 @@
 (evil-set-initial-state 'help-mode 'emacs)
 
 ;; disable evil mode in org mode
-(evil-set-initial-state 'org-mode 'emacs)
-(add-to-list 'evil-emacs-state-modes 'org-mode)
+;;(evil-set-initial-state 'org-mode 'emacs)
+;;(add-to-list 'evil-emacs-state-modes 'org-mode)
 
 (provide 'bowmore-editor)
